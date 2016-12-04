@@ -11,9 +11,11 @@ html{
 	font-family: arial, helvetica, sans-serif;
 	color: black;
 	}
+@media screen and (min-width: 451) {
 #content{
 	width: 100%;
 	}
+}
 
 @media screen and (max-width: 450) {
 #content{
@@ -33,10 +35,12 @@ html{
 	right: 0;
 	top: 0;
 	}
+@media screen and (min-width: 451) {
 #main-heading{
 	padding-left: 25px;
 	background-color: rgba(255,255,255,0);
 	}
+}
 
 @media screen and (max-width: 450) {
 #main-heading{
