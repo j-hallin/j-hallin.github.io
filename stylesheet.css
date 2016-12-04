@@ -97,7 +97,7 @@ html{
 }
 
 
-@media and (min-width: 451px) {
+@media screen and (min-width: 451px) {
 	
 	.thumbnail-wrapper{
 		text-align: center;
@@ -128,7 +128,7 @@ html{
 	}
 }
 
-@media and (max-width: 450px) {
+@media screen and (max-width: 450px) {
 	.thumbnail-wrapper{
 		text-align: center;
 		margin-top: 70;
