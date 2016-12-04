@@ -28,8 +28,6 @@ html{
 	padding-left:25px;
 	background-color: rgba(255,255,255,0);
 	}
-
-@media only screen and (min-width: 451px) {
 .home-icon{
 	position: fixed;
 	height: auto;
@@ -71,62 +69,6 @@ html{
 	top: 105;
 	right: 24;
 	z-index: 1;
-}
-}
-@media only screen and (max-width: 451px) {
-.home-icon{
-	text-align: center;
-	position: fixed;
-	height: 50;
-	width: 50;
-	top: 30;
-	right: 25;
-	z-index: 1;
-}
-.papers-icon{
-	text-align: center;
-	position: fixed;
-	height: auto;
-	top: 30;
-	right: 70;
-	z-index: 1;
-}
-.projects-icon{
-	text-align: center;
-	position: fixed;
-	height: 50;
-	width: 50;
-	top: 30;
-	right: 115;
-	z-index: 1;
-}
-.me-icon{
-	text-align: center;
-	position: fixed;
-	height: 50;
-	width: 50;
-	top: 30;
-	right: 160;
-	z-index: 1;
-}
-.contact-icon{
-	text-align: center;
-	height: 50;
-	width: 50;
-	height: auto;
-	top: 70;
-	right: 25;
-	z-index: 1;
-}
-.researchgate-icon{
-	text-align: center;
-	height: 50;
-	width: 50;
-	height: auto;
-	top: 105;
-	right: 24;
-	z-index: 1;
-}
 }
 .section {
 	position: relative;
@@ -155,7 +97,7 @@ html{
 }
 
 
-@media only screen and (min-width: 451px) {
+@media and (min-width: 451px) {
 	
 	.thumbnail-wrapper{
 		text-align: center;
@@ -186,7 +128,7 @@ html{
 	}
 }
 
-@media only screen and (max-width: 450px) {
+@media and (max-width: 450px) {
 	.thumbnail-wrapper{
 		text-align: center;
 		margin-top: 70;
