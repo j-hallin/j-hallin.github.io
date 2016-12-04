@@ -95,9 +95,6 @@ html{
 	margin-bottom: 0;
 	background-color: rgba(213,217,220,0);
 }
-
-
-@media screen and (min-width: 451px) {
 	
 	.thumbnail-wrapper{
 		text-align: center;
@@ -126,7 +123,6 @@ html{
 		border-radius: 50%;
 		background-color: rgba(213,217,220,0.5);
 	}
-}
 
 @media screen and (max-width: 450px) {
 	.thumbnail-wrapper{
