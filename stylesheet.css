@@ -96,62 +96,32 @@ html{
 	background-color: rgba(213,217,220,0);
 }
 	
-	.thumbnail-wrapper{
-		text-align: center;
-		margin-top: 70;
-		margin-bottom: 10;
-		max-width: 1000;
-		margin-left: auto;
-		margin-right: auto;
-	}
+.thumbnail-wrapper{
+	text-align: center;
+	margin-top: 70;
+	margin-bottom: 10;
+	max-width: 1000;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	.thumbnail {
-		/*Thumbnail images are 278x278 at 100 dpi (the whole page).
-		I only save the drawing for the alpha images
-		(with opacity set to 30%), furthermore, I put
-		a box above the img with rgba(246,249,252,130)
-		so that the thumbnail text is easier to read
-		when hoovered over*/
-		text-align: center;
-		display: inline-flex;
+.thumbnail {
+	/*Thumbnail images are 278x278 at 100 dpi (the whole page).
+	I only save the drawing for the alpha images
+	(with opacity set to 30%), furthermore, I put
+	a box above the img with rgba(246,249,252,130)
+	so that the thumbnail text is easier to read
+	when hoovered over*/
+	text-align: center;
+	display: inline-flex;
   	flex-direction: column;
-		font-size: 22;
-		width: 250px;
-		height: 250px;
-		margin: 20px 20px 20px 20px;
-		padding-left: 10px;
-		border-radius: 50%;
-		background-color: rgba(213,217,220,0.5);
-	}
-
-@media screen and (max-width: 450px) {
-	.thumbnail-wrapper{
-		text-align: center;
-		margin-top: 70;
-		margin-bottom: 10;
-		max-width: 500;
-		margin-left: auto;
-		margin-right: auto;
-	}	
-
-	.thumbnail {
-		/*Thumbnail images are 278x278 at 100 dpi (the whole page).
-		I only save the drawing for the alpha images
-		(with opacity set to 30%), furthermore, I put
-		a box above the img with rgba(246,249,252,130)
-		so that the thumbnail text is easier to read
-		when hoovered over*/
-		text-align: center;
-		display: inline-flex;
-  	flex-direction: column;
-		font-size: 22;
-		width: 250px;
-		height: 250px;
-		margin: 20px 0px 20px 0px;
-		padding-left: 10px;
-		border-radius: 50%;
-		background-color: rgba(213,217,220,0.5);
-	}
+	font-size: 22;
+	width: 250px;
+	height: 250px;
+	margin: 20px 20px 20px 20px;
+	padding-left: 10px;
+	border-radius: 50%;
+	background-color: rgba(213,217,220,0.5);
 }
 
 .thumbnail-section{
