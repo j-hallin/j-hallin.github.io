@@ -1,0 +1,326 @@
+html{
+	background-image: url(images/JHA_4683compressed-crop.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+#wrapper{
+	min-width: 700px;
+	min-height: 1000px;
+	font-family: arial, helvetica, sans-serif;
+	color: black;
+	}
+#content{
+	width: 100%;
+	}
+#header {
+	height: 30px;
+	background-color: white;
+	text-align: center;	
+	font-size: 30;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	}
+#main-heading{
+	padding-left:25px;
+	background-color: rgba(255,255,255,0);
+	}
+
+@media only screen and (min-width: 451px) {
+.home-icon{
+	position: fixed;
+	height: auto;
+	top: 30;
+	right: 25;
+	z-index: 1;
+}
+.papers-icon{
+	position: fixed;
+	height: auto;
+	top: 30;
+	right: 70;
+	z-index: 1;
+}
+.projects-icon{
+	position: fixed;
+	height: auto;
+	top: 30;
+	right: 115;
+	z-index: 1;
+}
+.me-icon{
+	position: fixed;
+	height: auto;
+	top: 30;
+	right: 160;
+	z-index: 1;
+}
+.contact-icon{
+	position: fixed;
+	height: auto;
+	top: 70;
+	right: 25;
+	z-index: 1;
+}
+.researchgate-icon{
+	position: fixed;
+	height: auto;
+	top: 105;
+	right: 24;
+	z-index: 1;
+}
+}
+@media only screen and (max-width: 451px) {
+.home-icon{
+	text-align: center;
+	position: fixed;
+	height: 50;
+	width: 50;
+	top: 30;
+	right: 25;
+	z-index: 1;
+}
+.papers-icon{
+	text-align: center;
+	position: fixed;
+	height: auto;
+	top: 30;
+	right: 70;
+	z-index: 1;
+}
+.projects-icon{
+	text-align: center;
+	position: fixed;
+	height: 50;
+	width: 50;
+	top: 30;
+	right: 115;
+	z-index: 1;
+}
+.me-icon{
+	text-align: center;
+	position: fixed;
+	height: 50;
+	width: 50;
+	top: 30;
+	right: 160;
+	z-index: 1;
+}
+.contact-icon{
+	text-align: center;
+	height: 50;
+	width: 50;
+	height: auto;
+	top: 70;
+	right: 25;
+	z-index: 1;
+}
+.researchgate-icon{
+	text-align: center;
+	height: 50;
+	width: 50;
+	height: auto;
+	top: 105;
+	right: 24;
+	z-index: 1;
+}
+}
+.section {
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20;
+  font-size: 18;
+	border-radius: 55px;
+	background-color: rgba(213,217,220,0.7);
+	}
+#footer{
+	position: fixed;
+	height: auto;
+	bottom: 0;
+	right: 35;
+	left: 0;
+	text-align: right;
+	border-radius: 0px;
+	padding: 0;
+	padding-right: 10;
+	font-size: 12;
+	margin-bottom: 0;
+	background-color: rgba(213,217,220,0);
+}
+
+
+@media only screen and (min-width: 451px) {
+	
+	.thumbnail-wrapper{
+		text-align: center;
+		margin-top: 70;
+		margin-bottom: 10;
+		max-width: 1000;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.thumbnail {
+		/*Thumbnail images are 278x278 at 100 dpi (the whole page).
+		I only save the drawing for the alpha images
+		(with opacity set to 30%), furthermore, I put
+		a box above the img with rgba(246,249,252,130)
+		so that the thumbnail text is easier to read
+		when hoovered over*/
+		text-align: center;
+		display: inline-flex;
+  	flex-direction: column;
+		font-size: 22;
+		width: 250px;
+		height: 250px;
+		margin: 20px 20px 20px 20px;
+		padding-left: 10px;
+		border-radius: 50%;
+		background-color: rgba(213,217,220,0.5);
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.thumbnail-wrapper{
+		text-align: center;
+		margin-top: 70;
+		margin-bottom: 10;
+		max-width: 500;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.thumbnail {
+		/*Thumbnail images are 278x278 at 100 dpi (the whole page).
+		I only save the drawing for the alpha images
+		(with opacity set to 30%), furthermore, I put
+		a box above the img with rgba(246,249,252,130)
+		so that the thumbnail text is easier to read
+		when hoovered over*/
+		text-align: center;
+		display: inline-flex;
+  	flex-direction: column;
+		font-size: 22;
+		width: 250px;
+		height: 250px;
+		margin: 20px 0px 20px 0px;
+		padding-left: 10px;
+		border-radius: 50%;
+		background-color: rgba(213,217,220,0.5);
+	}
+}
+
+.thumbnail-section{
+	width: 225;
+	margin-left: 7;
+	font-size: 15;
+}
+
+#me-thumbnail{
+	background-image: url(images/website-me-thumbnail.png);
+}
+#som-thumbnail{
+	background-image: url(images/som-thumbnail.png);
+}
+#papers-thumbnail{
+	background-image: url(images/papers-thumbnail.png);
+}
+#projects-thumbnail{
+	background-image: url(images/projects-thumbnail.png);
+}
+#me-thumbnail{
+	background-image: url(images/me-thumbnail.png);
+}
+#predictions-thumbnail{
+	background-image: url(images/predictions-thumbnail.png);
+}
+#decomposition-thumbnail{
+	background-image: url(images/decomposition-thumbnail.png);
+}
+#ScSp-thumbnail{
+	background-image: url(images/Sc_Sp-thumbnail.png);
+}
+#expEvo-thumbnail{
+	background-image: url(images/expEvo-thumbnail.png);
+}
+#face-thumbnail{
+	background-image: url(images/me-thumbnail.png);
+}
+#buisness-thumbnail{
+	background-image: url(images/buisness-pie-legend.png);
+	background-size: cover;
+}
+#pleasure-thumbnail{
+	background-image: url(images/pleasure-pie-legend.png);
+	background-size: cover;
+}
+
+
+.thumbnail .hover-thumbnail{ display: none }
+.thumbnail:hover .hover-thumbnail{ display: inline-block}
+.thumbnail:hover .initial-thumbnail{ display: none }
+
+.thumbnail:hover{
+	transition-duration: 1s;
+}
+
+
+/*Change the opacity of the background image of thumbnail
+The opacity is set to 30 in inkscape, from the original image
+I don't save the entire page for this, only the drawing, so that they
+"multiply" when hoovered over*/
+
+#me-thumbnail:hover{
+	background-image: url(images/website-me-thumbnail-alpha.png)
+}
+#som-thumbnail:hover{
+	background-image: url(images/som-thumbnail-alpha.png)
+}
+#papers-thumbnail:hover{
+	background-image: url(images/papers-thumbnail-alpha.png)
+}
+#projects-thumbnail:hover{
+	background-image: url(images/projects-thumbnail-alpha.png)
+}
+#me-thumbnail:hover{
+	background-image: url(images/me-thumbnail-alpha.png)
+}
+#predictions-thumbnail:hover{
+	background-image: url(images/predictions-thumbnail-alpha.png)
+}
+#decomposition-thumbnail:hover{
+	background-image: url(images/decomposition-thumbnail-alpha.png)
+}
+#ScSp-thumbnail:hover{
+	background-image: url(images/Sc_Sp-thumbnail-alpha.png)
+}
+#expEvo-thumbnail:hover{
+	background-image: url(images/expEvo-thumbnail-alpha.png)
+}
+#face-thumbnail:hover{
+	background-image: url(images/face-thumbnail.png)
+}
+#buisness-thumbnail:hover{
+	background-image: url(images/buisness-pie.png);
+	background-size: auto;
+	background-position: center;
+}
+#pleasure-thumbnail:hover{
+	background-image: url(images/pleasure-pie.png);
+	background-size: auto;
+	background-position: center;
+}
+#aboutme-hoover-thumbnail-font-color{
+	color: rgba(0,0,0,0);
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
