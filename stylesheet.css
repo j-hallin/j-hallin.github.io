@@ -163,15 +163,10 @@ html{
 #face-thumbnail{
 	background-image: url(images/me-thumbnail.png);
 }
-#buisness-thumbnail{
-	background-image: url(images/buisness-pie-legend.png);
+#cv-thumbnail{
+	background-image: url(images/cv-thumbnail.png);
 	background-size: cover;
 }
-#pleasure-thumbnail{
-	background-image: url(images/pleasure-pie-legend.png);
-	background-size: cover;
-}
-
 
 .thumbnail .hover-thumbnail{ display: none }
 .thumbnail:hover .hover-thumbnail{ display: inline-block}
@@ -218,15 +213,11 @@ I don't save the entire page for this, only the drawing, so that they
 	background-image: url(images/face-thumbnail.png)
 }
 #buisness-thumbnail:hover{
-	background-image: url(images/buisness-pie.png);
+	background-image: url(images/cv-thumbnail-alpha.png);
 	background-size: auto;
 	background-position: center;
 }
-#pleasure-thumbnail:hover{
-	background-image: url(images/pleasure-pie.png);
-	background-size: auto;
-	background-position: center;
-}
+
 #aboutme-hoover-thumbnail-font-color{
 	color: rgba(0,0,0,0);
 }
