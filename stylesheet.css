@@ -165,7 +165,6 @@ html{
 }
 #cv-thumbnail{
 	background-image: url(images/cv-thumbnail.png);
-	background-size: cover;
 }
 
 .thumbnail .hover-thumbnail{ display: none }
