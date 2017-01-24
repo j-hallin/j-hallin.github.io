@@ -212,10 +212,8 @@ I don't save the entire page for this, only the drawing, so that they
 #face-thumbnail:hover{
 	background-image: url(images/face-thumbnail.png)
 }
-#buisness-thumbnail:hover{
+#cv-thumbnail:hover{
 	background-image: url(images/cv-thumbnail-alpha.png);
-	background-size: auto;
-	background-position: center;
 }
 
 #aboutme-hoover-thumbnail-font-color{
