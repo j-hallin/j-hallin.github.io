@@ -161,6 +161,9 @@ html{
 #expEvo-thumbnail{
 	background-image: url(images/expEvo-thumbnail.png);
 }
+#edn-thumbnail{
+	background-image: url(images/edn-thumbnail.png);
+}
 #face-thumbnail{
 	background-image: url(images/me-thumbnail.png);
 }
@@ -208,6 +211,9 @@ I don't save the entire page for this, only the drawing, so that they
 }
 #expEvo-thumbnail:hover{
 	background-image: url(images/expEvo-thumbnail-alpha.png)
+}
+#edn-thumbnail:hover{
+	background-image: url(images/edn-thumbnail-alpha.png)
 }
 #face-thumbnail:hover{
 	background-image: url(images/face-thumbnail.png)
