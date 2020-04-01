@@ -167,6 +167,9 @@ html{
 #plos-primer-thumbnail{
 	background-image: url(images/plos-primer-thumbnail.png);
 }
+#avo-app-rev-thumbnail{
+	background-image: url(images/evo-app-rev-thumbnail.png);
+}
 #face-thumbnail{
 	background-image: url(images/me-thumbnail.png);
 }
@@ -220,6 +223,9 @@ I don't save the entire page for this, only the drawing, so that they
 }
 #plos-primer-thumbnail:hover{
 	background-image: url(images/plos-primer-thumbnail-alpha.png)
+}
+#evo-app-rev-thumbnail:hover{
+	background-image: url(images/evo-app-rev-thumbnail-alpha.png)
 }
 #face-thumbnail:hover{
 	background-image: url(images/face-thumbnail.png)
