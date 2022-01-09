@@ -170,6 +170,9 @@ html{
 #evo-app-rev-thumbnail{
 	background-image: url(images/evo-app-rev-thumbnail.png);
 }
+#nematode-thumbnail{
+	background-image: url(images/nematode-thumbnail.png);
+}
 #face-thumbnail{
 	background-image: url(images/me-thumbnail.png);
 }
@@ -226,6 +229,9 @@ I don't save the entire page for this, only the drawing, so that they
 }
 #evo-app-rev-thumbnail:hover{
 	background-image: url(images/evo-app-rev-thumbnail-alpha.png)
+}
+#nematode-thumbnail:hover{
+	background-image: url(images/nematode-thumbnail-alpha.png)
 }
 #face-thumbnail:hover{
 	background-image: url(images/face-thumbnail.png)
