@@ -169,6 +169,9 @@ html{
 #aging-thumbnail{
 	background-image: url(images/aging-thumbnail.png);
 }
+#genomic-shock-thumbnail{
+	background-image: url(images/genomic-shock-thumbnail.png);
+}
 #face-thumbnail{
 	background-image: url(images/me-thumbnail.png);
 }
@@ -231,6 +234,9 @@ I don't save the entire page for this, only the drawing, so that they
 }
 #aging-thumbnail:hover{
 	background-image: url(images/aging-thumbnail-alpha.png)
+}
+#genomic-shock-thumbnail:hover{
+	background-image: url(images/genomic-shock-thumbnail-alpha.png)
 }
 #face-thumbnail:hover{
 	background-image: url(images/face-thumbnail.png)
