@@ -46,25 +46,18 @@ html{
 	right: 70;
 	z-index: 1;
 }
-.projects-icon{
+.me-icon{
 	position: fixed;
 	height: auto;
 	top: 30;
 	right: 115;
 	z-index: 1;
 }
-.me-icon{
+.contact-icon{
 	position: fixed;
 	height: auto;
 	top: 30;
 	right: 160;
-	z-index: 1;
-}
-.contact-icon{
-	position: fixed;
-	height: auto;
-	top: 70;
-	right: 25;
 	z-index: 1;
 }
 .researchgate-icon{
